@@ -15,3 +15,7 @@ ul {
 .header-bottom {
     display: flex;
 }
+
+.grids {
+    display: flex;
+}
