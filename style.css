@@ -4,9 +4,28 @@ ul {
     padding: 0;
     display: flex;
     gap: 10px;
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
+.header {
+    background-color: #1F2937;
+}
 
+.header-bottom-left p {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder; 
+}
+
+.header-top div {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -16,6 +35,49 @@ ul {
     display: flex;
 }
 
+.header-bottom-left button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #F9FAF8;
+    border-radius: 4px;
+}
+
 .grids {
     display: flex;
+    justify-content: center;
+}
+
+.grid {
+    outline: #3882F6 4px solid;
+    height: 200px;
+    width: 200px;
+}
+
+.grid-container {
+    display: flex;
+}
+
+.credit {
+    align-self: flex-end;
+}
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    padding: 200px;
+    display: flex;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+}
+.action-container-right {
+    align-items: center;
+
 }
