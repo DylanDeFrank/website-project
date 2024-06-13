@@ -45,12 +45,20 @@ h1 {
 .grids {
     display: flex;
     justify-content: center;
+    gap: 50px;
 }
 
 .grid {
     outline: #3882F6 4px solid;
     height: 200px;
     width: 200px;
+}
+
+.grid-section p {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+    text-align: center;
 }
 
 .grid-container {
@@ -78,6 +86,20 @@ h1 {
     justify-content: space-between;
 }
 .action-container-right {
+    align-items: center;
+
+}
+
+.call-to-action {
+    
+}
+
+.action-container {
+    background-color: #3882F6;
+    height: 200px;
+    width: 900px;
+    margin: 200px;
+    display: flex;
     align-items: center;
 
 }
